@@ -21,7 +21,7 @@ let titleCased = () => {
 
  let toTitleCase = (str) => {
   return str.replace(
-      /\w\S*/g,
+      // /\w\S*/g,
       function(txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1);
       }
